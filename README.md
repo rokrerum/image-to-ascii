@@ -1,17 +1,22 @@
-# ASCII Image Converter
+# Konwerter obrazów na ASCII Art 🖼️➡️📜
 
-Ten projekt to prosty konwerter obrazów na ASCII w Pythonie.  
-Wystarczy umieścić obraz w folderze `zdjecia/` i uruchomić skrypt.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-## Wymagania
-- Python 3.x
-- Pillow (`pip install pillow`)
+Narzędzie do konwersji obrazów na art ASCII z możliwością regulacji gęstości znaków.
 
-## Jak używać?
-1. Umieść obraz w folderze `zdjecia/`
-2. Uruchom `ascii_converter.py`
-3. Wybierz obraz z listy
-4. Wygenerowany ASCII-art pojawi się w folderze `ascii/`
+## 🌟 Funkcje
+- Automatyczne dopasowanie gęstości znaków do rozmiaru obrazu
+- Wykorzystanie różnych zestawów znaków ASCII
+- Generowanie plików tekstowych
+- Prosty interfejs tekstowy
 
-## Autor
-rokrerum
+## 🛠️ Wymagania
+- Python 3.8+
+- Biblioteka Pillow
+
+## 📦 Instalacja
+```bash
+git clone https://github.com/twoja_nazwa/ascii-art-converter.git
+cd ascii-art-converter
+pip install -r requirements.txt
